@@ -2,7 +2,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'paper_trail/version_number'
 
 Gem::Specification.new do |s|
-  s.name          = 'paper_trail'
+  s.name          = 'paper_trail_without_deprecated'
   s.version       = PaperTrail::VERSION
   s.platform      = Gem::Platform::RUBY
   s.summary       = "Track changes to your models' data.  Good for auditing or versioning."
